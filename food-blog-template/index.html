@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HOME PAGE</title>
+<!-- META INFO -->
+ <meta name="theme-color" content="#222">
+ <meta charset="UTF-8">  
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <meta name="author" content="fazle-rabbi">
+ <meta name="keywords" content="">
+ <meta name="description" content="">  
+<!-- FONTAWESOME KIT -->
+ <script src="https://kit.fontawesome.com/2982aea746.js" crossorigin="anonymous"></script>
+	<!-- <i class="fa-brands fa-facebook-f"></i> -->
+<!-- Google Fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=Courgette&family=Gochi+Hand&family=Goldman&family=Handlee&family=Indie+Flower&family=Kalam&family=Patrick+Hand&family=Shadows+Into+Light&family=Staatliches&family=Tapestry&family=Ubuntu&display=swap" rel="stylesheet">
+ <!-- font-family: 'Amatic SC', cursive;
+   font-family: 'Caveat', cursive;
+   font-family: 'Courgette', cursive;
+   font-family: 'Gochi Hand', cursive;
+   font-family: 'Goldman', cursive;
+   font-family: 'Handlee', cursive;
+   font-family: 'Indie Flower', cursive;
+   font-family: 'Kalam', cursive;
+   font-family: 'Patrick Hand', cursive;
+   font-family: 'Shadows Into Light', cursive;
+   font-family: 'Staatliches', cursive;
+   font-family: 'Tapestry', cursive;
+   font-family: 'Ubuntu', sans-serif; -->
+<!-- Google Fonts -->
+<!-- BOTSTARP-5 -->
+ <!-- css code -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+ <!-- js code -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
+<!-- BOTSTARP-5 -->
+<!-- TachYons CSS Library -->
+  <!-- <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css"> -->
+<!-- TachYons CSS Library -->
+<!-- STYLESHEET -->
+  <link media="screen and (max-width: 1200px)" rel="stylesheet" href="css/desktop.css">	
+  <link media="screen and (max-width: 600px)" rel="stylesheet" href="css/style.css">	
+<!-- STYLESHEET -->
+<style>
+ body{
+    
+ }   
+</style>
+</head>
+<body>
+
+<!-- Header Start Here -->
+<header>
+   <div class="menu">
+      <i class="menu fas fa-bars"></i>
+   </div>
+   <div class="name">
+      <h2>My Food</h2>
+   </div>
+   <div class="mail">
+      <h2>Mail</h2>
+   </div>
+</header>
+<div style="clear:both;"></div>
+<!-- Sidebar Menu -->
+<div class="sidebar-nav">
+  <button onclick="hideSidebar()">Close Menu</button>
+  <a href="#">Food</a>
+  <a href="#">About</a>
+</div>
+
+<!-- Card Section Start Here -->
+<div class="card-container">
+  <div class="card">
+   <img width="100%" src="img/sandwich.jpg" alt="">
+   <div class="card-body">
+      <center><h2>The Perfect Sandwich, A Real NYC Classic</h2></center>
+      <br>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+   </div>
+  </div>
+  
+  <div class="card">
+   <img width="100%" src="img/steak.jpg" alt="">
+   <div class="card-body">
+      <center><h2>Let Me Tell You About This Steak
+
+</h2></center>
+      <br>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+   </div>
+  </div>
+  
+  <div class="card">
+   <img width="100%" src="img/cherries.jpg" alt="">
+   <div class="card-body">
+      <center><h2>Cherries, interrupted</h2></center>
+      <br>
+      <p>Lorem ipsum text praesent tincidunt ipsum/ lipsum.</p>
+   </div>
+  </div>
+  
+  <div class="card">
+   <img width="100%" src="img/wine.jpg" alt="">
+   <div class="card-body">
+      <center><h2>Once Again, Robust Wine and Vegetable Pasta</h2></center>
+      <br>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+   </div>
+  </div>
+  
+  <div class="card">
+   <img width="100%" src="img/popsicle.jpg" alt="">
+   <div class="card-body">
+      <center><h2>All I Need Is a Popsicle</h2></center>
+      <br>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+   </div>
+  </div>
+  
+  <div class="card">
+   <img width="100%" src="img/salmon.jpg" alt="">
+   <div class="card-body">
+      <center><h2>Salmon For Your Skin</h2></center>
+      <br>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+   </div>
+  </div>
+  
+  <div class="card">
+   <img width="100%" src="img/sandwich.jpg" alt="">
+   <div class="card-body">
+      <center><h2>The Perfect Sandwich, A Real Classic</h2></center>
+      <br>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+   </div>
+  </div>
+  
+    <div class="card">
+   <img width="100%" src="img/croissant.jpg" alt="">
+   <div class="card-body">
+      <center>Le French<h2></h2></center>
+      <br>
+      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+   </div>
+  </div>
+</div>
+<br><br><br><br>
+<!-- Pagination Start Here -->
+<div class="pagination">
+   <button id="a">«</button>
+   <button>1</button>
+   <button>2</button>
+   <button>3</button>
+   <button>4</button>
+   <button id="a">»</button>
+</div>
+<br>
+<hr>
+
+<div class="about-me">
+   <h2>About Me, The Food Man</h2>
+   <br><br>
+   <img width="80%" src="img/chef.jpg" alt="">
+   <br><br>
+   <strong>I am Who I Am!</strong>
+   <br><br>
+   <i>With Passion For Real, Good Food</i>
+   <br><br>
+   <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+</div>
+<hr>
+
+<!-- Footer Section -->
+<footer>
+   <div class="col1">
+     <h3>FOOTER</h3>
+     <br><br>
+     <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla</p>
+   </div>
+   <br>
+   <div class="blog-section col2">
+      <h3>BLOG POSTS</h3><br><br>
+      <div class="blog-div-container">
+       <div class="card1">
+         <img style="float:left;" width="15%" src="img/workshop.jpg" alt="">
+         <h4>Lorem</h4>
+         <h6 style="margin-top:5px;">Sed mattis nunc</h6>
+       </div>
+      
+       <div class="card2">
+         <img style="float:left;" width="15%" src="img/gondol.jpg" alt="">
+         <h4>Ipsum</h4>
+         <h6 style="margin-top:5px;">Praes tinci sed</h6>
+       </div>
+      </div>
+   </div>
+<div style="clear:both;"></div>
+<div style="" class="col3">
+   <h3 style="color:;">POPULAR TAGS</h3>
+<div class="tag">   
+   <button>Travel</button>
+   <button>New York</button>
+   <button>Dinner</button>
+   <button>Salmon</button>
+   <button>France</button>
+   <button>Ideas</button>
+   <button>Flavors</button>
+   <button>Cuisine</button>
+   <button>Chicken</button>
+   <button>Dressing</button>
+   <button>Fried</button>
+   <button>Fish</button>
+   <button>Duck</button>   
+</div>
+</div>
+</footer>
+
+<br><br><br><br><br>
+<script src="js/main.js"></script>      
+</body>
+</html>

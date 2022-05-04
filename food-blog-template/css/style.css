@@ -1,0 +1,200 @@
+/*Fun Fact: All code writen using Android Device*/
+/*text-align,left,right,center,font,font-weight,font-size,font-family,bold,bolder,lighter,color,green,brown,red,yellow,pink,deeppink,hotpink,cyan,gray,black,purple,violet,background-color,background,padding,margin border box-shadow px 10px 5px 7px line-height width height font-style italic normal text-decoration text-transform text-indentation letter spacing word spacing text-shadow border border-radius bottom top table-style POSITION: position relative absolute fixed sticky display block inline-block flex flex-wrap wrap nowrap justify-content align-items float grid grid-template-columns grid-template-row grid-gap html scroll-behavior smooth none 2px solid dotted dashed gradient rem */
+*{
+   box-sizing:border-box;
+   margin:0;
+   padding:0;
+   font-family: 'Shadows Into Light', cursive;
+   /* background:red; */
+}
+
+header{
+   padding:20px;
+   font-family:serif;
+   position:fixed;
+   width:100%;
+   z-index:100;
+   background:white;
+}
+
+.menu{
+   text-align:left;
+   float:left;
+   width:33.33%;
+}
+
+.menu i{
+   font-size:1.5rem;
+}
+
+.name{
+   text-align:center;
+   float:left;
+   width:33.33%;
+}
+
+.mail{
+   text-align:right;
+   float:right;
+   width:33.33%;
+}
+/* Sidebar Nav */
+.sidebar-nav{
+   background:white;
+   width:300px;
+   height:100vh;
+   padding:20px;
+   box-shadow:1px 2px 8px #000;
+   position:fixed;
+   top:0;
+   left:-310px;
+   transition:1s;
+   z-index:101;
+   
+}
+
+.sidebar-nav > a{
+   display:block;
+   text-decoration:none;
+   color:#000;
+   font-size:1.5rem;
+   margin:40px 0;
+}
+
+.sidebar-nav > button{
+   display:block;
+   text-decoration:none;
+   color:#000;
+   font-size:1.5rem;
+   margin:40px 0;
+}
+
+
+
+.sidebar-nav > a:hover{
+   color:indigo;
+}
+/* Card Section */
+.card-container{
+   position:relative;
+   top:100px;
+   padding:30px;
+}
+
+.card-body{
+   padding:10px;
+}
+
+.card{
+   text-align:center;
+   margin-bottom:15px;
+   flex:100%;
+}
+/* Pagination */
+.pagination{
+   display:;
+   text-align:center;
+   /* background:red; */
+   /* position:relative;    */
+   
+}
+
+.pagination > button{
+   background:#000;
+   color:white;
+   padding:8px;
+   width:40px;
+   border:none;
+}
+
+hr{
+   border:none;
+   margin:50px 20px;
+   border-bottom:0.5px solid lightgray;
+}
+/* About Section */
+
+.about-me{
+   text-align:center;
+   padding:20px;
+   
+}
+
+.about-me p{
+   padding:;
+   font-weight:lighter;
+   font-size:0.8rem;
+}
+/* Footer Section */
+footer{
+   padding:20px;
+   display:flex;
+   flex-wrap:wrap;
+}
+
+.col1{
+   flex:100%;
+}
+
+.col2{
+   flex:100%;
+   margin-top:20px;
+}
+
+.col3{
+   flex:100%;
+   margin-top:15px;
+}
+
+p{
+   font-family: 'Ubuntu', sans-serif; 
+}
+
+.card1{
+   padding:10px;
+   float:left;
+   width:100%;
+   margin-bottom:10px;
+}
+
+.card2{
+   padding:10px;
+   float:left;
+   width:100%;
+}
+
+.card1:hover{
+   background:whitesmoke;
+   color:;
+}
+
+.card2:hover{
+   background:whitesmoke;
+   color:;
+}
+
+.blog-section > div img{
+   margin-right:10px;
+}
+
+.blog-div-container{
+   margin-top:-10px;
+}
+/* Popular Tags */
+
+.tag{
+   margin-top:20px;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:spacing-between;
+}
+
+.tag > button{
+   height:30px;
+   background:#000;
+   color:white;
+   padding:8px;
+   border:none;
+   margin:5px;
+}
+
